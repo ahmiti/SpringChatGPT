@@ -17,7 +17,7 @@ public class MyOpenAIService  {
     public String openAIServiceCall(String userInput) {
         Scanner scanner = new Scanner(System.in);
 
-        OpenAiService service = new OpenAiService("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");
+        OpenAiService service = new OpenAiService("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");
         List<ChatMessage> chatMessages = Arrays.asList(
                 new ChatMessage(ChatMessageRole.SYSTEM.value(), "You are a helpful assistant."),
                 new ChatMessage(ChatMessageRole.USER.value(), userInput)
